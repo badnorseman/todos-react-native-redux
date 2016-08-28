@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import {
   Navigator,
   StyleSheet,
-  View,
+  View
 } from 'react-native'
 import Todos from '../components/Todos'
 import { NavBarRouteMapper } from '../components/NavBarRouteMapper'

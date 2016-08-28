@@ -1,7 +1,7 @@
 import React from 'react'
 import {
   StyleSheet,
-  Text,
+  Text
 } from 'react-native'
 
 export const NavBarRouteMapper = {

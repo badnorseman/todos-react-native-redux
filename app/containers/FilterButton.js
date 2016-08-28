@@ -62,6 +62,4 @@ const styles = StyleSheet.create({
   }
 })
 
-FilterButton = connect()(FilterButton)
-
-export default FilterButton
+export default connect()(FilterButton)

@@ -61,6 +61,4 @@ const styles = StyleSheet.create({
   }
 })
 
-AddTodo = connect()(AddTodo)
-
-export default AddTodo
+export default connect()(AddTodo)
