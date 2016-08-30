@@ -20,8 +20,9 @@ Presentation can be seen [here](http://www.slideshare.net/DanJ3/redux-with-react
 *  Open `ios/TodosRedux.xcodeproj` and hit run in Xcode
 
 ### To test
-*  run `npm test` to execute unit tests
-*  run `flow` to check types
+*  run `npm run test` to execute unit tests
+*  run `npm run flow` to check types
+*  run `npm run eslint` to check linting
 
 ## References
 
