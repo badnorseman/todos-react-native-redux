@@ -5,8 +5,8 @@
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
     "test": "mocha --opts test/mocha.opts test/**/*.spec.js",
-    "eslint": "$(npm bin)/eslint app",
-    "flow": "$(npm bin)/flow"
+    "lint": "eslint -c .eslintrc.json app",
+    "flow": "flow"
   },
   "dependencies": {
     "react": "15.3.1",
