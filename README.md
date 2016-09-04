@@ -12,8 +12,8 @@ Presentation can be seen [here](http://www.slideshare.net/DanJ3/redux-with-react
 3. react-native-cli is recommended to be installed globally by running `npm -g install react-native-cli`.
 
 ### Installation
-*  git clone https://github.com/urbanvikingr/todos-react-native-redux.git
-*  cd todos-react-native-redux
+*  git clone https://github.com/urbanvikingr/todos-react-native-redux.git TodosRedux
+*  cd TodosRedux
 *  run `npm install`
 
 ### To run the iOS app
