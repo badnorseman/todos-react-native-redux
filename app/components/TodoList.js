@@ -113,8 +113,8 @@ const styles = StyleSheet.create({
     fontSize: 16
   },
   separator: {
-    borderColor: 'rgba(255,255,255,0.12)',
-    borderWidth: 1,
+    borderBottomColor: 'rgba(255,255,255,0.12)',
+    borderBottomWidth: StyleSheet.hairlineWidth,
     marginLeft: 16
   }
 })
