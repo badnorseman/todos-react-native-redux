@@ -16,7 +16,7 @@ class FilterButton extends Component {
   constructor() {
     super()
     this.state = {
-      filter: visibilityFilters.SHOW_AKTIVE,
+      filter: visibilityFilters.SHOW_ACTIVE,
       text: 'Hide Completed'
     }
     this.onPress = this.onPress.bind(this)
@@ -33,7 +33,7 @@ class FilterButton extends Component {
   onPress() {
     this.props.dispatch(setVisibilityFilter(this.state.filter))
     const filter = (this.state.filter === visibilityFilters.SHOW_ALL) ?
-      visibilityFilters.SHOW_AKTIVE : visibilityFilters.SHOW_ALL
+      visibilityFilters.SHOW_ACTIVE : visibilityFilters.SHOW_ALL
     const text = (this.state.filter === visibilityFilters.SHOW_ALL) ?
       'Hide Completed' : 'Show Completed'
     this.setState({ filter, text })
